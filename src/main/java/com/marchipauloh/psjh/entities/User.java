@@ -14,7 +14,9 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import io.swagger.annotations.Api;
 
+@Api(value = "User")
 @Entity
 @Table(name = "tb_user")
 public class User implements Serializable{
